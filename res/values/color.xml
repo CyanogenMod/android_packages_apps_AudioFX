@@ -52,4 +52,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <color name="cb_shader_alpha">#22ffffff</color>
 
     <color name="window_background">#ff000000</color>
+
+    <!-- Material theme colors -->
+    <color name="material_primary">#616161</color>
+    <color name="material_dark">#424242</color>
+
 </resources>

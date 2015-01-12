@@ -17,8 +17,10 @@
 <resources>
     <style name="AppTheme" parent="android:Theme.Material">
         <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:colorPrimary">@color/material_primary</item>
+        <item name="android:colorPrimaryDark">@color/material_dark</item>
     </style>
-    <style name="Widget.Material.SeekBar.Vertical" parent="@android:Widget.Holo.SeekBar">
+    <style name="Widget.Material.SeekBar.Vertical" parent="@android:Widget.Material.SeekBar">
         <item name="android:indeterminateOnly">false</item>
         <item name="android:progressDrawable">@drawable/scrubber_progress_vertical_holo_dark</item>
 <!-- not public       <item name="android:indeterminateDrawable">@android:drawable/scrubber_progress_horizontal_holo_dark</item> -->
