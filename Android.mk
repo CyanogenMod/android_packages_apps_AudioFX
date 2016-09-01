@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_PACKAGE_NAME	:= AudioFX
-LOCAL_MODULE_TAGS	:= optional
+LOCAL_PACKAGE_NAME	 := ModioFX
+LOCAL_MODULE_TAGS	 := optional
 
 LOCAL_OVERRIDES_PACKAGES := DSPManager
 
